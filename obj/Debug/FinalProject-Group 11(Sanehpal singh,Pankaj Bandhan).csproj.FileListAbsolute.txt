@@ -1,0 +1,7 @@
+C:\Users\pbandhan\Desktop\c#\Exercises\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)\obj\Debug\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan).csprojAssemblyReference.cache
+C:\Users\pbandhan\Desktop\c#\Exercises\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)\obj\Debug\MainWindow.g.cs
+C:\Users\pbandhan\Desktop\c#\Exercises\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)\obj\Debug\App.g.cs
+C:\Users\pbandhan\Desktop\c#\Exercises\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)\obj\Debug\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)_MarkupCompile.cache
+C:\Users\pbandhan\Desktop\c#\Exercises\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)\obj\Debug\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)_MarkupCompile.lref
+C:\Users\pbandhan\Desktop\c#\Exercises\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)\obj\Debug\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan).exe
+C:\Users\pbandhan\Desktop\c#\Exercises\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan)\obj\Debug\FinalProject-Group 11(Sanehpal singh,Pankaj Bandhan).pdb

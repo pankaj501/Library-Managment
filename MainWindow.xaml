@@ -1,0 +1,67 @@
+﻿<Window x:Class="FinalProjectGroup11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalProject_Group_11_Sanehpal_singh_Pankaj_Bandhan_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        FontSize="15">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+
+
+
+        </Grid.RowDefinitions>
+
+        <DataGrid Name="mediaList" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="6" Grid.RowSpan="11" AutoGenerateColumns="False" MaxWidth="500" MaxHeight="1000" Margin="50,0.2,0.4,16.4" >
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="Title" Header="Title" Binding="{Binding Title, Mode=OneWay}" Width="2*"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding MediaType, Mode=OneWay}" Width="2*"/>
+                <DataGridCheckBoxColumn Header="Avialblty" Binding="{Binding Avalability,Mode=OneWay}" Width="2*"/>
+                <DataGridTextColumn Header="Borrower" Binding="{Binding Borrower, Mode=OneWay}" Width="2*"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Name="LendMedia" Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="0" Content="Lend Media" Click="LendMedia_Click"/>
+        <Button Name="ReturnMedia" Grid.ColumnSpan="2" Grid.Row="2" Grid.Column="0" Content="Return Media" Click="ReturnMedia_Click"/>
+
+
+        <DataGrid Name="nameList" Grid.ColumnSpan="2" Grid.Row="4" Grid.Column="0"  Grid.RowSpan="6"  AutoGenerateColumns="False" MaxWidth="100" MaxHeight="700" Margin="5.4,0.6,9.8,50" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}" Width="3*"/>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+    </Grid>
+</Window>
